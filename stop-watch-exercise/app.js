@@ -7,8 +7,7 @@ function stopWatch(timeInSeconds){
     }
 
 
-
-    let sec = time > 60 ? time%60 : time;
+    let sec = time > 59 ? time%60 : time;
     let min = time > 60 ? Math.floor(time/60) : 0;
     let hr = time > 3600 ? Math.floor(time/3600) : 0;
 
